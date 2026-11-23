@@ -1,0 +1,13 @@
+HMAPN - Painel e importação local
+
+Abra INICIAR_PAINEL.bat para iniciar no Windows.
+O Python executa o servidor e a leitura dos relatórios.
+O SQLite, incluído no Python, guarda dados e histórico.
+Não há pacotes adicionais nem mensalidade de serviço.
+
+Consulte README.md na pasta superior para instruções, testes e limites.
+Use apenas relatórios de materiais autorizados. Dados de pacientes não
+são necessários. Nunca publique relatórios reais no repositório público.
+
+A conexão com SALUX ocorre por arquivos exportados, não por API ou
+acesso direto ao banco hospitalar. Atende somente este computador.

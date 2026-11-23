@@ -1,0 +1,27 @@
+name: Verificar painel
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Backend com dados fictícios
+        run: python -m unittest discover -s tests -v
+      - name: Sintaxe JavaScript
+        run: |
+          node --check app.js
+          node --check api.js
+          node --check demo-data.js
+      - name: Conferir arquivos públicos
+        run: python tests/check_publication.py

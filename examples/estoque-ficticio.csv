@@ -1,0 +1,7 @@
+cd_estoque;cd_material;ds_material;ds_gr_estocagem;ds_gr_compra;ds_estoque;sigla;qt_estoque;vl_custo_medio;qt_consumo_dia;id_abc;ult_fornecedor
+EXEMPLO;FICT-001;Material fictício sem saldo;Grupo de exemplo;Compra de exemplo;Almoxarifado fictício;UN;0;1;1;C;Fornecedor fictício
+EXEMPLO;FICT-002;Material fictício crítico;Grupo de exemplo;Compra de exemplo;Almoxarifado fictício;UN;6;2;1;B;Fornecedor fictício
+EXEMPLO;FICT-003;Material fictício em atenção;Grupo de exemplo;Compra de exemplo;Almoxarifado fictício;UN;20;3;1;B;Fornecedor fictício
+EXEMPLO;FICT-004;Material fictício regular;Grupo de exemplo;Compra de exemplo;Almoxarifado fictício;UN;100;4;1;A;Fornecedor fictício
+EXEMPLO;FICT-005;Material fictício em excesso;Grupo de exemplo;Compra de exemplo;Almoxarifado fictício;UN;150;5;1;A;Fornecedor fictício
+EXEMPLO;FICT-006;Material fictício sem consumo informado;Grupo de exemplo;Compra de exemplo;Almoxarifado fictício;UN;5;6;0;C;Fornecedor fictício
